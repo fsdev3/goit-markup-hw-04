@@ -235,7 +235,30 @@ body {
 .teammate-title {
   margin-bottom: 8px;
 }
-
+.team-icon-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
+.team-icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--logo-and-button-color);
+}
+.icons-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.team-icon-item {
+  width: 16px;
+  height: 16px;
+}
 /* footer */
 .footer {
   background: var(--dark-bg-color);
