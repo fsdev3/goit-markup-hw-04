@@ -174,15 +174,14 @@ body {
 .future-list .item:last-child {
   margin-right: 0;
 }
-.future-list .item {
-  width: 264px;
-  margin-right: 24px;
-}
+
 .icon-box {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 112px;
+  width: 264px;
+  margin-right: 24px;
   margin-bottom: 8px;
   background-color: var(--secondary-white-color);
 }
@@ -275,7 +274,6 @@ body {
   gap: 24px;
 }
 .customers-item {
-  display: flex;
   width: 168px;
   height: 88px;
 }
