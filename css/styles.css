@@ -159,7 +159,7 @@ body {
 .pointer {
   cursor: pointer;
 }
-/* section future */
+/* section feature */
 
 .section {
   padding-top: 120px;
@@ -170,6 +170,7 @@ body {
 }
 .future-list {
   display: flex;
+  gap: 24px;
 }
 .future-list .item:last-child {
   margin-right: 0;
@@ -181,7 +182,6 @@ body {
   align-items: center;
   height: 112px;
   width: 264px;
-  margin-right: 24px;
   margin-bottom: 8px;
   background-color: var(--secondary-white-color);
 }
@@ -320,6 +320,7 @@ body {
 }
 .social-title {
   color: var(--primary-white-color);
+  font-weight: 500;
 }
 .social-list {
   display: flex;
