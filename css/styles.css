@@ -15,6 +15,9 @@
 .link {
   text-decoration: none;
 }
+.link:visited {
+  color: var(--primary-text-color);
+}
 .item,
 .list {
   list-style: none;
@@ -330,6 +333,7 @@ body {
   height: 40px;
   border-radius: 50%;
   background: var(--bg-icons-footer);
+  margin-top: 16px;
 }
 .social-items:hover,
 .social-items:focus {
@@ -366,7 +370,10 @@ body {
 .button-filter:focus {
   background: var(--accent-color);
   color: var(--primary-white-color);
+  border: 1px solid var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
 .button-list {
   display: flex;
   justify-content: center;
@@ -387,6 +394,15 @@ body {
   margin-right: 24px;
   margin-bottom: 48px;
 }
+.thumb {
+  display: block;
+}
+.thumb:hover,
+.thumb:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .card-text {
   border-bottom: 1px solid var(--footer-text-color);
   border-right: 1px solid var(--footer-text-color);
