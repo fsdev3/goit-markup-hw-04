@@ -183,7 +183,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 112px;
-
+  margin-bottom: 8px;
   background-color: var(--secondary-white-color);
 }
 .icon-feut {
